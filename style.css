@@ -97,4 +97,22 @@ footer{
     text-align:center;
     padding:20px;
     background:#111827;
+}.typing-text{
+    font-size:32px;
+    font-weight:bold;
+    color:white;
+}
+
+.typing-text span{
+    color:#00bfff;
+    border-right:3px solid #00bfff;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink{
+
+50%{
+border-color:transparent;
+}
+
 }
