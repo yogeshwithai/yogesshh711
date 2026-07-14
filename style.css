@@ -162,3 +162,37 @@ border-color:transparent;
     border-radius:50%;
     border:5px solid #38bdf8;
 }
+#projects{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.projects{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    margin-top:40px;
+}
+
+.project-card{
+    width:300px;
+    background:#1f2937;
+    padding:25px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px #38bdf8;
+}
+
+.project-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.project-card p{
+    margin-bottom:20px;
+}
