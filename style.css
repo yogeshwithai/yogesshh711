@@ -205,3 +205,35 @@ border-color:transparent;
 .project-card p{
     margin-bottom:20px;
 }
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    margin-top:30px;
+}
+
+.project-card{
+    width:300px;
+    background:#1c2541;
+    padding:20px;
+    border:2px solid #38bdf8;
+    border-radius:12px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px #38bdf8;
+}
+
+.project-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.project-card p{
+    margin-bottom:20px;
+    line-height:1.6;
+}
