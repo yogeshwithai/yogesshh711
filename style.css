@@ -141,3 +141,18 @@ border-color:transparent;
     background:#38bdf8;
     color:#111827;
 }
+.left{
+    flex:1;
+}
+
+.right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.right img{
+    width:320px;
+    border-radius:50%;
+    border:5px solid #38bdf8;
+}
