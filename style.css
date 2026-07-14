@@ -46,15 +46,24 @@ nav ul li a{
     gap:60px;
 }
 
-.left{
-  .right{
-    flex:1;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}  flex:1;
-    max-width:500px;
+49  .left,
+50  .right{
+51      flex:1;
+52      display:flex;
+53      justify-content:center;
+54      align-items:center;
+55  }
+56  .left{
+57      flex-direction:column;
+58      align-items:flex-start;
+59      max-width:500px;
+60  }
 }
+
+.left{
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
 }
 
 .left h1{
@@ -77,8 +86,13 @@ nav ul li a{
     text-decoration:none;
     border-radius:8px;
 }
+.right img{
+    width: 280px;
+    border-radius: 50%;
+    border: 5px solid #38bdf8;
+}
 
-.hero img{
+.right img{
     width:280px;
     border-radius:50%;
     border:5px solid #38bdf8;
