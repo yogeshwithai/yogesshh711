@@ -39,10 +39,12 @@ nav ul li a{
 
 .hero{
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
-    flex-wrap:wrap;
-    padding:60px 20px;
+    min-height:100vh;
+    padding:80px 10%;
+    gap:60px;
+}
 }
 
 .hero-text{
