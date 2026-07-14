@@ -57,14 +57,9 @@ nav ul li a{
 57      flex-direction:column;
 58      align-items:flex-start;
 59      max-width:500px;
-60  }
-}
+60  
+ }
 
-.left{
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 500px;
-}
 
 .left h1{
     font-size:50px;
